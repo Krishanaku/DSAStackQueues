@@ -23,6 +23,33 @@ namespace DSAStackQueues
             }
             Console.WriteLine("\nTop of the stack : {0}", q1.Peek());
             Console.WriteLine("************************");
+
+            q1.Dequeue();
+            foreach (int i in q1)
+            {
+                list.Add(i);
+            }
+            Console.WriteLine("\nTop of the stack : {0}", q1.Peek());
+            Console.WriteLine("************************");
+
+            q1.Dequeue();
+            foreach (int i in q1)
+            {
+                list.Add(i);
+            }
+            Console.WriteLine("\nTop of the stack : {0}", q1.Peek());
+            Console.WriteLine("************************");
+
+            q1.Dequeue();
+            foreach (int i in q1)
+            {
+                list.Add(i);
+            }
+            
+            Console.WriteLine("************************");
+            Console.WriteLine("Queue was Empty");
+            
+
         }
     }
 }
